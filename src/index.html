@@ -8,9 +8,9 @@
     <title>Landingpage TailwindCss</title>
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=shopping_cart" />
-
+    
 </head>
-<body class="w-100%" >
+<body class="text-center sm:text-left"></div> >
     <div class="w-100% h-200">
         <!--Navbar-->
             <nav class="flex justify-around w-1920px h-50px">
@@ -352,8 +352,18 @@
         </div>
         <p class="ml-150">copyright @2023 Askmeidentity,AllRights Reservred</p>
 
-
-   
+    </div>
+    <div>
+        module.exports = {
+            theme: {
+                screens: {
+               'tablet': '640px',
+               'laptop': '1024px',
+              'desktop': '1280px',
+               }
+            }
+        }
+    </div>
       
 </body>
 </html>
